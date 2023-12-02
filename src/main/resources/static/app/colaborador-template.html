@@ -1,0 +1,8 @@
+<div class="">
+    <span>{{ currentColaborador.name }}</span>
+    <ul >
+        <li style="padding-top: 11px" ng-repeat="subordinado in currentColaborador.subordinados">
+            <div ng-include="'colaborador-template.html'" ng-init="currentColaborador=subordinado"></div>
+        </li>
+    </ul>
+</div>

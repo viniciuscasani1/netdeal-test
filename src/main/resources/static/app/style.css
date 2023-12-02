@@ -1,0 +1,78 @@
+.form-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+}
+
+.form-row label {
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.side-by-side {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* Adicione margem se desejar espaço entre as listas */
+}
+.barra-progresso {
+    height: 20px;
+    background-color: #3498db; /* Azul para a barra de progresso */
+}
+
+.avaliacao {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Estilo de texto para diferentes categorias de senha */
+.senha-fraca {
+    background-color: #e74c3c; /* Vermelho para senha fraca */
+}
+
+.senha-media {
+    background-color: #f1c40f; /* Amarelo para senha média */
+}
+
+.senha-otima {
+    background-color: #2ecc71; /* Verde para senha boa */
+}
+
+.senha-boa {
+    background-color: #3498db; /* Azul para senha ótima */
+}
+
+ul{
+    list-style: none;
+}
